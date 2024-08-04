@@ -1,0 +1,24 @@
+{
+  "name": "publish-assistant-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.3.0+sha1.d4f1da7af76dbdb4ab1a08f6b5add602ffad6fd4",
+  "dependencies": {
+    "@langchain/community": "^0.2.23",
+    "@langchain/openai": "^0.2.5",
+    "koa": "^2.15.3",
+    "koa-body": "^6.0.1",
+    "koa-router": "^12.0.1",
+    "langchain": "^0.2.12",
+    "pdf-parse": "^1.1.1"
+  }
+}
